@@ -3,7 +3,7 @@ body{
   font-weight: 400;
   font-size: 16px;
   /* Sets the font size to 16px */
-  line-hecight: 1.6;
+  line-height: 1.6;
   /* Sets the line-height to 1.6 */
 }
 :root {
@@ -79,10 +79,6 @@ button:focus,
   opacity: 0.8;
 }
 
-
-.profile__portrait {
-  float: left;
-}
 
 .page-footer {
   clear: both;
