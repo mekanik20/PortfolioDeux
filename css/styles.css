@@ -91,7 +91,6 @@ button:focus,
 .about_me {
   max-width: 700px;
   margin: 0 auto;
-
 }
 
 * {
@@ -127,6 +126,10 @@ button:focus,
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
+}
+
+.navigation-list li .navigation-list__item--active {
+  text-decoration: none;
 }
 
 @supports (display: grid) {
