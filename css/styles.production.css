@@ -68,11 +68,6 @@ button:focus,
   opacity: 0.8;
 }
 
-
-.profile__portrait {
-  float: left;
-}
-
 .page-footer {
   clear: both;
   display: -webkit-box;
@@ -87,7 +82,7 @@ button:focus,
 
 .profile__portrait {
   float: left;
-  margin: 50px auto;
+  margin: 40px auto;
   width: 10%;
 }
 
