@@ -109,120 +109,37 @@ a:active {
   color: #489c79
 }
 
+button:hover,
+button:focus {
+  /* lets the mouse appear as a hand when hovering over the button */
+  cursor: pointer;
+  /* reduces the opacity of the button to 80% */
+  opacity: 0.8;
+}
+
 .button__secondary {
   background-color: #e0b354;
   color: #2b2b2b;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
 .button,
 button {
-  border: 2px solid #d2bdff;
-  height: 80px;
-  width: 200px;
-  border-radius: 4px;
-  position: relative;
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  margin: 25px;
-}
-
-&::after {
-  content: "See my CV";
-  position: absolute;
-  top: 41%;
-  left: 50%;
-  transform: translate(-50%);
-  color: #d2bdff;
-  transition: all 0.1s linear;
-}
-
-&::before {
-  content: "";
-  position: relative;
-  display: block;
-  height: 15px;
-  width: 15px;
-  background: #d2bdff;
-  box-shadow: 0px 0px 10px 3px #0ff;
-  margin-left: -8px;
-  margin-top: -8px;
-  opacity: 0;
-  transition: all 0.1s linear;
-  border-radius: 100%;
-  animation: star 1.3s linear infinite;
-}
-
-@keyframes star {
-  0% {
-    margin-left: -8px;
-    margin-top: -8px;
-  }
-
-  25% {
-    margin-left: 194px;
-    margin-top: -8px;
-  }
-
-  50% {
-    margin-left: 194px;
-    margin-top: 75px;
-  }
-
-  75% {
-    margin-left: -8px;
-    margin-top: 75px;
-  }
-
-  100% {
-    margin-left: -8px;
-    margin-top: -8px;
-  }
-}
-
-&:hover {
-  &::before {
-    opacity: 1;
-    animation: star 1.3s linear infinite;
-  }
-
-  &::after {
-    content: "See my CV";
-    text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #82bedc,
-      0 0 30px #82bedc, 0 0 40px #82bedc, 0 0 50px #82bedc, 0 0 60px #82bedc;
-  }
-}
-}
-
-/*.button,
-button {
-  -- overwrites browser defaults and resets the border --
+  /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
-  -- takes the font from the outer container --
+  /* takes the font from the outer container */
   font-family: inherit;
-  --styles the button --
+  /* styles the button */
   background-color: #357b70;
   color: white;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  -- width of the border, type, color --
+  /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition-duration: 0.2s;
   transition-property: opacity;
-}*/
-
-/* button:hover,
-button:focus,
-.button:hover,
-.button:focus {
-  --lets the mouse appear as a hand when hovering over the button 
-  cursor: pointer;
-  --reduces the opacity of the button to 80% 
-  opacity: 0.8;
-}*/
+}
 
 .profile__portrait {
   float: left;
