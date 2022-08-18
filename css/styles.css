@@ -175,7 +175,7 @@ button {
 }
 
 .page-header__item {
-  flex: 0 1 200px;
+  max-width: 60px
 }
 
 .page-header__item:last-child {
