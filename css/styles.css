@@ -179,8 +179,10 @@ button {
 }
 
 .page-header__item:last-child {
-  flex-grow: 1;
-  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
 }
 
 .navigation-list {
