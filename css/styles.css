@@ -94,16 +94,9 @@ a {
 }
 
 .page-header {
-  overflow: hidden;
-  height: 80px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  width: 100%;
-  transition: top 0.2s ease-in-out;
   display: flex;
-  /*width: 100%;
-  padding: 20px;*/
+  width: 100%;
+  padding: 20px;
 }
 
 .page-header__item {
