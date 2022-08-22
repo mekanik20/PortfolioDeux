@@ -141,10 +141,6 @@ a {
   width: 25%;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 a:hover,
 a:focus {
   /* No underlining when hovering over a link*/
@@ -167,11 +163,6 @@ button:focus {
   cursor: pointer;
   /* reduces the opacity of the button to 80% */
   opacity: 0.8;
-}
-
-.button__secondary {
-  background-color: #e0b354;
-  color: #2b2b2b;
 }
 
 .button,
