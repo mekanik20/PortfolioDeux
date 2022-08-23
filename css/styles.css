@@ -120,6 +120,10 @@ li {
   text-align: left;
 }*/
 
+.logo {
+  max-width: 60px;
+}
+
 .nav-hide {
   top: -80px;
 }
