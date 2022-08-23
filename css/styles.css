@@ -107,7 +107,7 @@ li {
   transition: top 0.2s ease-in-out;
 }
 
-.page-header__item {
+/*.page-header__item {
   flex: 0 1 200px;
   display: flex;
   justify-content: space-between;
@@ -115,7 +115,7 @@ li {
   padding: 1rem 1.5rem;
 }
 
-/*.page-header__item:last-child {
+.page-header__item:last-child {
   flex-grow: 1;
   text-align: left;
 }*/
