@@ -98,8 +98,13 @@ li {
 }
 
 .page-header {
+  overflow: hidden;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   width: 100%;
-  padding: 20px;
+  transition: top 0.2s ease-in-out;
 }
 
 /*.page-header__item {
