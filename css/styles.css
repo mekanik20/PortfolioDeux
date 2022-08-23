@@ -98,7 +98,6 @@ li {
 }
 
 .page-header {
-  overflow: hidden;
   height: 80px;
   position: fixed;
   z-index: 1;
