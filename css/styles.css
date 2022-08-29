@@ -314,10 +314,10 @@ p {
   grid-template-columns: 3fr 2fr;
   grid-auto-flow: column;
   gap: 50px;
-  width: 100%;
+  /*width: 100%;*/
   height: auto;
-  /*max-width: 700px;
-  margin: 0 auto;*/
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .about-me-details .about-me-text {
@@ -337,7 +337,7 @@ a:visited {
 
 a:active {
   /* selected link */
-  color: #489c79
+  color: #f8fcfa
 }
 
 button:hover,
