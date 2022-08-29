@@ -447,12 +447,12 @@ a:focus {
 
 a:visited {
   /* visited link */
-  color: #05676e;
+  color: #fafdfd;
 }
 
 a:active {
   /* selected link */
-  color: #f8fcfa
+  color: #fc0808
 }
 
 button:hover,
