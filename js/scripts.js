@@ -2,16 +2,16 @@
  * Shows / hides burger menu when user clicks on burger or link
  */
 (function () {
-  const hamburger = document.querySelector(".hamburger");
+  //const hamburger = document.querySelector(".hamburger");
   const navMenu = document.querySelector(".nav-menu");
 
   // When the user clicks on the hamburger, toggle active class to show/hide burger menu
-  hamburger.addEventListener("click", mobileMenu);
+  //hamburger.addEventListener("click", mobileMenu);
 
-  function mobileMenu() {
+  /*function mobileMenu() {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
-  }
+  }*/
 
   // When the user clicks on a link in the menu, remove active class to hide burger menu
   const navLink = document.querySelectorAll(".nav-link");
@@ -19,7 +19,7 @@
   navLink.forEach(n => n.addEventListener("click", closeMenu));
 
   function closeMenu() {
-    hamburger.classList.remove("active");
+    //hamburger.classList.remove("active");
     navMenu.classList.remove("active");
   }
 })();
