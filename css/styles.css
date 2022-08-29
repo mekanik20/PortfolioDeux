@@ -211,12 +211,11 @@ p {
 }
 
 .profile .profile__portrait {
-  max-width: 300px;
   display: block;
   position: relative;
-  /*float: left;
+  float: left;
   margin: 40px auto;
-  width: 25%;*/
+  width: 25%;
 }
 
 .intro-text-wrapper {
