@@ -1,6 +1,6 @@
 /**
  * Shows / hides burger menu when user clicks on burger or link
- */
+
 (function () {
   //const hamburger = document.querySelector(".hamburger");
   const navMenu = document.querySelector(".nav-menu");
@@ -11,7 +11,7 @@
   /*function mobileMenu() {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
-  }*/
+  }
 
   // When the user clicks on a link in the menu, remove active class to hide burger menu
   const navLink = document.querySelectorAll(".nav-link");
@@ -22,12 +22,12 @@
     //hamburger.classList.remove("active");
     navMenu.classList.remove("active");
   }
-})();
+})();*/
 
 
 /**
  * Shows header when user scrolls up, hides header when user scrolls down
- */
+ 
 (function () {
 
   var doc = document.documentElement;
@@ -46,7 +46,7 @@
     /*
     ** Find the direction of scroll
     ** 0 - initial, 1 - up, 2 - down
-    */
+    
 
     curScroll = w.scrollY || doc.scrollTop;
     if (curScroll > prevScroll) {
@@ -79,29 +79,41 @@
 
   window.addEventListener('scroll', checkScroll);
 
-})();
+})();*/
+
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
 
 
-/**
- * Reveals sections on scrolling
- */
-(function () {
-  function reveal() {
-    var reveals = document.querySelectorAll(".reveal");
+  /**
+   * Reveals sections on scrolling
+   */
+  (function () {
+    function reveal() {
+      var reveals = document.querySelectorAll(".reveal");
 
-    for (var i = 0; i < reveals.length; i++) {
-      var windowHeight = window.innerHeight;
-      var elementTop = reveals[i].getBoundingClientRect().top;
-      var elementVisible = 150;
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 150;
 
-      if (elementTop < windowHeight - elementVisible) {
-        reveals[i].classList.add("active");
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        }
       }
     }
-  }
 
-  window.addEventListener("scroll", reveal);
+    window.addEventListener("scroll", reveal);
 
-  reveal();
+    reveal();
 
-})();
+  })();
