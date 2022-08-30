@@ -125,15 +125,17 @@ li {
   max-width: 60px;
 }
 
-.nav-hide {
+/*.nav-hide {
   top: -80px;
-}
+}*/
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+  top: 0;
+  transition: top 0.3s;
 }
 
 .nav-menu {
@@ -143,11 +145,11 @@ li {
   padding: 0px;
 }
 
-.nav-item {
+/*.nav-item {
   margin-left: 3rem;
 }
 
-/*.navigation-list {
+.navigation-list {
   list-style-type: none;
 }
 
@@ -557,7 +559,7 @@ button {
 @media only screen and (max-width: 768px) {
 
   /* Navigation */
-  .nav-menu {
+  /*.nav-menu {
     position: fixed;
     left: -100%;
     top: 5rem;
@@ -575,7 +577,7 @@ button {
 
   .nav-item {
     margin: 1.5rem 0;
-  }
+  }*/
 
   /*.hamburger {
     display: block;
