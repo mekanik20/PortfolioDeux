@@ -559,7 +559,7 @@ button {
 @media only screen and (max-width: 768px) {
 
   /* Navigation */
-  /*.nav-menu {
+  .nav-menu {
     position: fixed;
     left: -100%;
     top: 5rem;
@@ -575,7 +575,7 @@ button {
     left: 0;
   }
 
-  .nav-item {
+  /*.nav-item {
     margin: 1.5rem 0;
   }*/
 
