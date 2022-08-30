@@ -145,11 +145,11 @@ li {
   padding: 0px;
 }
 
-/*.nav-item {
+.nav-item {
   margin-left: 3rem;
 }
 
-.navigation-list {
+/*.navigation-list {
   list-style-type: none;
 }
 
@@ -575,9 +575,9 @@ button {
     left: 0;
   }
 
-  /*.nav-item {
+  .nav-item {
     margin: 1.5rem 0;
-  }*/
+  }
 
   /*.hamburger {
     display: block;
