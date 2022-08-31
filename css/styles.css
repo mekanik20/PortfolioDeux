@@ -179,7 +179,7 @@ section {
 .reveal {
   position: relative;
   transform: translateY(100px);
-  opacity: 0;
+  opacity: 1;
   transition: 2x all ease;
 }
 
