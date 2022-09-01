@@ -345,7 +345,7 @@ p {
 }
 
 .project-image {
-  max-width: 100%;
+  max-width: 40%;
   display: block;
   position: relative;
 }
