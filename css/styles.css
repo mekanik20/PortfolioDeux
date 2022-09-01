@@ -418,9 +418,9 @@ p {
   padding: 0px;
 }
 
-.other-project-list li {
+/*.other-project-list li {
   background-color: #212121;
-}
+}*/
 
 .project-inner {
   display: flex;
