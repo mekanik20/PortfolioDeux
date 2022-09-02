@@ -135,6 +135,7 @@ li {
   align-items: center;
   padding: 1rem 1.5rem;
   top: 0;
+  width: 100%;
   transition: top 0.3s;
 }
 
