@@ -330,6 +330,10 @@ p {
   display: block;
 }
 
+.tech-list {
+  color: #ffffff;
+}
+
 /* Projects */
 .project-list {
   margin-bottom: 50px;
