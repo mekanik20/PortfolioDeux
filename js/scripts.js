@@ -26,8 +26,8 @@
 
 
 /**
- * Shows header when user scrolls up, hides header when user scrolls down
- 
+ * Shows header when user scrolls up, hides header when user scrolls down */
+
 (function () {
 
   var doc = document.documentElement;
@@ -45,8 +45,8 @@
 
     /*
     ** Find the direction of scroll
-    ** 0 - initial, 1 - up, 2 - down
-    
+    ** 0 - initial, 1 - up, 2 - down */
+
 
     curScroll = w.scrollY || doc.scrollTop;
     if (curScroll > prevScroll) {
@@ -79,9 +79,9 @@
 
   window.addEventListener('scroll', checkScroll);
 
-})();*/
+})();
 
-/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar 
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
@@ -91,12 +91,12 @@ window.onscroll = function () {
     document.getElementById("navbar").style.top = "-50px";
   }
   prevScrollpos = currentScrollPos;
-}*/
+}
 
 
 /**
  * Reveals sections on scrolling
- */
+ 
 (function () {
   function reveal() {
     var reveals = document.querySelectorAll(".reveal");
@@ -116,4 +116,4 @@ window.onscroll = function () {
 
   reveal();
 
-})();
+})();*/
