@@ -565,7 +565,7 @@ button {
 
 @media only screen and (max-width: 768px) {
 
-  /* Navigation */
+  /* Navigation 
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -576,7 +576,7 @@ button {
     border-radius: 3px;
     text-align: center;
     transition: 0.3s;
-  }
+  }*/
 
   .nav-menu.active {
     left: 0;
