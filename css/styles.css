@@ -330,8 +330,10 @@ p {
   display: block;
 }
 
-.tech-list {
+.tech-list li {
+  font-family: 'Aboreto', cursive;
   color: #ffffff;
+  line-height: 1.6;
 }
 
 /* Projects */
