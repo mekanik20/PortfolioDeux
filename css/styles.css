@@ -390,7 +390,7 @@ p {
   display: inline;
   margin-left: 20px;
   font-family: 'Aboreto', cursive;
-  color: #0a0a0a;
+  color: #ffffff;
   line-height: 1.6;
   font-size: 14px;
 }
@@ -449,7 +449,7 @@ a:focus {
 
 a:visited {
   /* visited link */
-  color: #fafdfd;
+  color: #ffffff;
 }
 
 a:active {
