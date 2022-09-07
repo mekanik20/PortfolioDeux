@@ -125,9 +125,9 @@ li {
   max-width: 60px;
 }
 
-/*.nav-hide {
+.nav-hide {
   top: -80px;
-}*/
+}
 
 .navbar {
   display: flex;
