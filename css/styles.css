@@ -353,7 +353,7 @@ p {
 }
 
 .project-image {
-  max-width: 40%;
+  max-width: 100%;
   display: block;
   position: relative;
 }
