@@ -137,19 +137,6 @@ li {
   margin-left: 3rem;
 }
 
-/*.navigation-list {
-  list-style-type: none;
-}
-
-.navigation-list li {
-  display: inline-block;
-  margin-left: 15px;
-}
-
-.navigation-list li .navigation-list__item--active {
-  text-decoration: none;
-}*/
-
 /* Main */
 main {
   margin: 80px auto;
@@ -197,17 +184,12 @@ p {
   align-items: flex-start;
   min-height: 100vh;
   padding: 0px;
-  /*max-width: 700px;
-  margin: 0 auto;*/
 }
 
 .profile__portrait {
   max-width: 300px;
   display: block;
   position: relative;
-  /*float: left;
-  margin: 40px auto;
-  width: 25%;*/
 }
 
 .intro-text-wrapper {
@@ -310,8 +292,6 @@ p {
   gap: 50px;
   width: 100%;
   height: auto;
-  /*max-width: 700px;
-  margin: 0 auto;*/
 }
 
 .about-me-details .about-me-element {
@@ -411,10 +391,6 @@ p {
   padding: 0px;
 }
 
-/*.other-project-list li {
-  background-color: #212121;
-}*/
-
 .project-inner {
   display: flex;
   flex-direction: column;
@@ -467,7 +443,7 @@ button {
   /* takes the font from the outer container */
   font-family: inherit;
   /* styles the button */
-  background-color: #357b70;
+  background-color: #070707;
   color: white;
   text-decoration: none;
   padding: 10px;
@@ -551,43 +527,11 @@ button {
 
 @media only screen and (max-width: 768px) {
 
-  /* Navigation 
-  .nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 5rem;
-    flex-direction: column;
-    background-color: #212121;
-    width: 100%;
-    border-radius: 3px;
-    text-align: center;
-    transition: 0.3s;
-  }*/
+  /* Navigation*/
 
   .nav-menu.active {
     left: 0;
   }
-
-  /*.nav-item {
-    margin: 1.5rem 0;
-  }*/
-
-  /*.hamburger {
-    display: block;
-    cursor: pointer;
-  }
-
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }*/
 
   /* About me */
   .about-me-details {
