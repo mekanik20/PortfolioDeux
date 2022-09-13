@@ -464,7 +464,7 @@ button {
 .social-media-icon {
   transition: transform 0.5s;
   max-height: 30px;
-  margin: 0px 15px 0px 15px;
+  margin: 0px 0px 0px;
 }
 
 .social-media-icon:hover {
