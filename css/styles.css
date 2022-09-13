@@ -465,6 +465,8 @@ button {
   transition: transform 0.5s;
   max-height: 30px;
   margin: 0px 15px 0px 15px;
+  border-right-style: none;
+  border-right-width: 0;
 }
 
 .social-media-icon:hover {
