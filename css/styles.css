@@ -43,7 +43,7 @@ body {
 }
 
 .wave {
-  background: rgb(255 255 255 / 25%);
+  background: rgba(116, 35, 35, 0.616);
   border-radius: 1000% 1000% 0 0;
   position: fixed;
   width: 200%;
