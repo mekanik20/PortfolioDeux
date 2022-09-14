@@ -29,12 +29,12 @@ body {
   overflow: auto;
   background: -o-linear-gradient(135deg,
       rgb(199, 111, 29) 3%,
-      rgb(74, 75, 75) 38%,
+      rgb(189, 192, 20) 38%,
       rgba(48, 238, 226, 1) 68%,
       rgb(40, 25, 255) 98%);
   background: linear-gradient(315deg,
       rgb(199, 111, 29) 3%,
-      rgb(74, 75, 75) 38%,
+      rgb(189, 192, 20) 38%,
       rgba(48, 238, 226, 1) 68%,
       rgb(40, 25, 255) 98%);
   -webkit-animation: gradient 15s ease infinite;
