@@ -561,37 +561,37 @@ button {
     display: block;
     text-align: right;
   }
-}
 
-.nav-menu.active {
-  left: 0;
-}
+  .nav-menu.active {
+    left: 0;
+  }
 
-/*nav ul {
+  /*nav ul {
   width: 100%;
 }*/
 
-/* About me */
+  /* About me */
 
-.about-me-details {
-  display: block;
-}
+  .about-me-details {
+    display: block;
+  }
 
-/* Projects */
+  /* Projects */
 
-.project-right-align,
-.project-left-align {
-  display: block;
-}
+  .project-right-align,
+  .project-left-align {
+    display: block;
+  }
 
-.project-image {
-  margin: 50px auto;
-  width: 80%;
-}
+  .project-image {
+    margin: 50px auto;
+    width: 80%;
+  }
 
-.project-content {
-  min-width: 0;
-  width: 100%;
+  .project-content {
+    min-width: 0;
+    width: 100%;
+  }
 }
 
 
