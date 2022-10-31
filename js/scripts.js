@@ -1,10 +1,10 @@
 /* Toggle between adding and removing the "responsive" class to navbar when the user clicks on the icon */
 function myFunction() {
-  var x = document.getElementById("menu-bar");
-  if (x.className === "navbar") {
+  var x = document.getElementById("nav-item");
+  if (x.className === "nav-menu") {
     x.className += " responsive";
   } else {
-    x.className = "navbar";
+    x.className = "nav-menu";
   }
 }
 

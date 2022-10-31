@@ -117,7 +117,7 @@ li {
   top: -80px;
 }
 
-.navbar .icon {
+.nav-menu .icon {
   display: none;
 }
 
@@ -535,28 +535,28 @@ button {
 /* Navigation*/
 
 @media screen and (max-width: 600px) {
-  .navbar a:not(:first-child) {
+  .nav-menu a:not(:first-child) {
     display: none;
   }
 
-  .navbar a.icon {
+  .nav-menu a.icon {
     float: right;
     display: block;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .navbar.responsive {
+  .nav-menu.responsive {
     position: relative;
   }
 
-  .navbar.responsive a.icon {
+  .nav-menu.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
 
-  .navbar.responsive a {
+  .nav-menu.responsive a {
     float: none;
     display: block;
     text-align: right;
@@ -567,9 +567,9 @@ button {
   left: 0;
 }
 
-nav ul {
+/*nav ul {
   width: 100%;
-}
+}*/
 
 /* About me */
 
