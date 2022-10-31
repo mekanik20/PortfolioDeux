@@ -117,6 +117,10 @@ li {
   top: -80px;
 }
 
+.navbar .icon {
+  display: none;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -555,17 +559,17 @@ button {
   .navbar.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: right;
   }
 }
 
-/*.nav-menu.active {
-    left: 0;
-  }
+.nav-menu.active {
+  left: 0;
+}
 
-  nav ul {
-    width: 100%;
-  }*/
+nav ul {
+  width: 100%;
+}
 
 /* About me */
 
