@@ -127,13 +127,6 @@ li {
   transition: top 0.3s;
 }
 
-nav .menu {
-  font-size: 2.5em;
-  display: none;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
 .nav-menu {
   display: flex;
   justify-content: space-between;
@@ -486,12 +479,6 @@ button {
   .project-title {
     font-size: 28.8px;
   }
-
-  nav .menu {
-    display: block;
-    width: 100px;
-    text-align: center;
-  }
 }
 
 @media all and (min-width: 768px) and (max-width: 992px) {
@@ -551,10 +538,6 @@ button {
     width: 100%;
   }
 
-  input[type="checkbox"] {
-    display: none;
-  }
-
   /* About me */
 
   .about-me-details {
@@ -579,4 +562,5 @@ button {
   }
 }
 
-/*# sourceMappingURL=index.css.map */
+
+/* # sourceMappingURL=index.css.map */
