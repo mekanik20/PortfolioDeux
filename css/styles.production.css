@@ -163,6 +163,7 @@ li {
 
 /* Header */
 .page-header {
+  overflow: hidden;
   height: 90px;
   position: fixed;
   z-index: 1;
@@ -180,6 +181,10 @@ li {
 .nav-hide {
   top: -80px;
 }
+
+/*.navbar .icon {
+  display: none;
+}*/
 
 .navbar {
   display: -webkit-box;
@@ -213,7 +218,7 @@ li {
 }
 
 .nav-item {
-  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 /* Main */
@@ -566,12 +571,24 @@ button {
   transform: scale(1.2);
 }
 
+.icon {
+  display: none;
+}
+
 /*** RESPONSIVE DESIGN ***/
 @media all and (max-width: 1200px) {
 
   .section-heading,
   .project-title {
     font-size: 28.8px;
+  }
+
+  .icon {
+    display: contents;
+  }
+
+  .nav-menu {
+    display: none;
   }
 }
 
@@ -620,20 +637,54 @@ button {
   }
 }
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {*/
 
-  /* Navigation*/
+/* Navigation*/
+
+@media screen and (max-width: 600px) {
+  .nav-menu a:not(:first-child) {
+    display: none;
+  }
+
+  .nav-menu a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-menu.responsive {
+    position: relative;
+  }
+
+  .nav-menu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .nav-menu.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
 
   .nav-menu.active {
     left: 0;
   }
 
+  /*nav ul {
+  width: 100%;
+}*/
+
   /* About me */
+
   .about-me-details {
     display: block;
   }
 
   /* Projects */
+
   .project-right-align,
   .project-left-align {
     display: block;
