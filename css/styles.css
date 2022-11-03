@@ -117,9 +117,9 @@ li {
   top: -80px;
 }
 
-.navbar .icon {
+/*.navbar .icon {
   display: none;
-}
+}*/
 
 .navbar {
   display: flex;
@@ -476,12 +476,24 @@ button {
   transform: scale(1.2);
 }
 
+.icon {
+  display: none;
+}
+
 /*** RESPONSIVE DESIGN ***/
 @media all and (max-width: 1200px) {
 
   .section-heading,
   .project-title {
     font-size: 28.8px;
+  }
+
+  .icon {
+    display: contents;
+  }
+
+  .nav-menu {
+    display: none;
   }
 }
 
